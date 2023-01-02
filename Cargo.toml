@@ -1,0 +1,31 @@
+[package]
+edition = "2021"
+name = "maple_timer"
+version = "0.3.1"
+
+[dependencies]
+anyhow = "1.0.52"
+assets_embedded = {path = "assets_embedded"}
+assets_manager = {version = "0.7.2", features = ["png"]}
+bus = "2.2.3"
+crossbeam-channel = "0.5.2"
+eframe = "0.16.0"
+egui = "0.16.1"
+enum_kind = "0.2.1"
+env_logger = "0.9.0"
+hostname = "0.3.1"
+image = "0.23.14"
+image_match = {path = "image_match"}
+log = "0.4.14"
+parking_lot = "0.11.2"
+sentry = {version = "0.21.0", features = ["backtrace", "contexts", "panic", "log"]}
+serde = {version = "1.0.133", features = ["derive"]}
+sha2 = "0.10.2"
+windows = {version = "0.29.0", features = ["alloc", "Win32_UI_WindowsAndMessaging", "Win32_Foundation", "Win32_Graphics_Gdi", "Win32_UI_HiDpi"]}
+winscr = {path = "winscr"}
+
+[features]
+windows_subsystem = []
+
+[workspace]
+members = ["winscr", "image_match", "assets_embedded"]
