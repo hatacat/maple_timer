@@ -10,6 +10,10 @@ SPDX-License-Identifier: MIT
 
 original project : https://github.com/cr0sh/maple-timer-ng
 
+# 다운로드 
+https://github.com/hatacat/maple_timer/raw/main/maple_timer.exe
+
+
 # Disclaimer (홈페이지 발췌)
 
 - 이 프로그램 및 사이트는 넥슨 코리아와 무관합니다.
