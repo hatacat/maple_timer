@@ -8,6 +8,8 @@ SPDX-License-Identifier: MIT
 
 메이플스토리 인게임 화면 캡쳐, 파싱 및 시간 측정 프레임워크입니다.
 
+original project : https://github.com/cr0sh/maple-timer-ng
+
 # Disclaimer (홈페이지 발췌)
 
 - 이 프로그램 및 사이트는 넥슨 코리아와 무관합니다.
@@ -52,9 +54,8 @@ SPDX-License-Identifier: MIT
 
 ## Features
 
-- 진 힐라의 *영혼 베기* 패턴 시간 측정
-  - 체력 바를 인식하여 주기를 자동으로 계산합니다.
-- 일격필살 코어 시간 측정
+- 일격필살 / 보스슬레이어 코어 시간 측정
+- (엔버용) 스포트라이트 / 옵드 시간 측정
 
 ## Credits
 
